@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     
     <!-- 웹 사이트 제작자 : 현솔#1025 -->
@@ -12,19 +11,18 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     
+    <script src="src/js/function.js"></script>
+    <script src="src/js/event.js"></script>
+    
+    
     <head>
-        <script>
-            function gotoId(id) {
-                document.getElementById(id).scrollIntoView();
-            }
-        </script>
+        <img id="head-line-content" class="head-line-content" src="./src/img/logo.png" height="210px;">
         
-        <div class="head-line-txt">(여기다가 뭐라고 적어야 댐)</div>
         <div class="head-line"></div>
             
         <!-- 메뉴 -->
         <table class="menu" cellspacing="5px" ondragstart="return false" onselectstart="return false">
-            <td onclick="gotoId('welcome')" id="welcome">환영합니다!</td>
+            <td onclick="gotoId('welcome')">환영합니다!</td>
             <td onclick="gotoId('introduce')">소개합니다!</td>
             <td onclick="gotoId('play')">플레이 방법!</td>
             <td onclick="gotoId('about')" style="border-right: 0">운영팀!</td>
@@ -69,7 +67,7 @@
         </section>
         
         <!-- 운영팀! -->
-        <section id="about" style="background-image: url('./src/img/back1.png');" class="content-section">
+        <section id="about"class="content-section" style="box-shadow: 0 0 0;">
             <br><br><br>
             <center>
                 <div class="head-title">운영팀!</div>
@@ -89,5 +87,9 @@
                 </table>
             </center>
         </section>
+        
+        <!-- 기타 -->
+        <div class="foot-line-txt">Copyright 2021. RABI Server. All rights reserved.</div>
+        <div class="foot-line"></div>
     </body>
 </html>

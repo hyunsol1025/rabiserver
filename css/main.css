@@ -1,3 +1,8 @@
+html {
+    cursor: url('../src/cursor.cur'), auto;
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -15,20 +20,26 @@ body {
     box-shadow: 0 6px 20px black;
 }
 
+.menu:hover {
+    cursor: hand;
+}
 .menu td {
     border-right: 2px solid white;
+    padding: 0px;
+    transition: padding 0.2s linear;
 }
 
 .menu td:hover {
     background: #484848;
-    padding: 17px;
     font-size: 15px;
     cursor: hand;
+    padding: 17px;
 }
 
 .menu td:active {
     background: #343434;
 }
+
 
 .head-title {
     padding: 10px;
@@ -54,10 +65,37 @@ body {
     background: black;
 }
 
-.head-line-txt {
+.head-line-content {
     position: absolute; 
     font-size: 20px;
-    top: 150px; 
+    top: 50px; 
     left: 50px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.head-line-content-fadeout {
+    opacity: 0; transition: opacity 1s linear;
+}
+
+/* FOOTER */
+footer {
+    background: #141414;
+    
+}
+.foot-line {
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background: #141414;
+    opacity: 70%;
+}
+
+.foot-line-txt {
+    position: relative;
+    top: 140px;
+    padding-left: 20px;
     z-index: 1;
 }
