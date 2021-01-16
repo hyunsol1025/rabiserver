@@ -99,7 +99,11 @@ footer {
 
 .foot-line-txt {
     position: relative;
-    top: 140px;
+    top: 200px;
     padding-left: 20px;
     z-index: 1;
+}
+
+.twitch-btn:hover {
+    cursor: hand;
 }
