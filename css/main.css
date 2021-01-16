@@ -1,6 +1,10 @@
-html {
-    cursor: url('../src/cursor.cur'), auto;
+html,body {
+    cursor: url('../src/img/cursor.png'), auto;
     scroll-behavior: smooth;
+}
+
+::selection {
+    background: #141414;
 }
 
 body {
