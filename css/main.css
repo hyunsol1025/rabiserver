@@ -107,3 +107,26 @@ footer {
 .twitch-btn:hover {
     cursor: hand;
 }
+
+/* ?? */
+#HELLOWORLD {
+    cursor: hand;
+    position: fixed;
+    z-index: 1;
+    top: 600px;
+    left: 50px;
+    opacity: 0;
+    height: 20px;
+    display: none;
+}
+
+#HELLOWORLD_TXT {
+    position: fixed;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+    top: 600px;
+    left: 230px;
+    text-shadow: 0px 0px 5px orange;
+    display: none;
+}

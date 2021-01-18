@@ -16,12 +16,13 @@
     
     
     <head>
-        <img id="head-line-content" class="head-line-content" src="./src/img/logo.png" height="210px;">
+        <img id="head-line-content" ondragstart="return false" onselectstart="return false" class="head-line-content" src="./src/img/logo.png" height="210px;"><div id="HELLOWORLD_TXT">당근당근!</div>
         
         <div class="head-line"></div>
-            
+        <img src="./src/img/lyua.png" id="HELLOWORLD">
+        
         <!-- 메뉴 -->
-        <table class="menu" cellspacing="5px" ondragstart="return false" onselectstart="return false">
+        <table class="menu" cellspacing="5px">
             <td onclick="gotoId('welcome')">환영합니다!</td>
             <td onclick="gotoId('introduce')">소개합니다!</td>
             <td onclick="gotoId('play')">플레이 방법!</td>
