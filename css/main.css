@@ -130,3 +130,16 @@ footer {
     text-shadow: 0px 0px 5px orange;
     display: none;
 }
+
+.fuck {
+    background: #141414;
+    box-shadow: 0px 0px 20px black;
+    width: 100%;
+    padding: 45px;
+    z-index: 5;
+    position: fixed;
+    top: 40%;
+    color: orangered;
+    font-size: 23px;
+    text-shadow: 0px 0px 3px;
+}
