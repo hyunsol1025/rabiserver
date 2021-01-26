@@ -29,6 +29,8 @@ window.addEventListener('resize',function() {
 
 var nextKeyNum = 76;
 function Lyua() {
+    alert("망했어!");
+    return;
     var ele = document.getElementById("HELLOWORLD");
     ele.style.display = "block";
     ele.style.opacity = 1;
